@@ -1,0 +1,309 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Carlos Rodríguez",
+      "email": "admin@restorapp.com",
+      "password": "password123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Laura Martínez",
+      "email": "laura.m@restorapp.com",
+      "password": "adminpass2025",
+      "role": "admin"
+    },
+    {
+      "id": "3",
+      "name": "Juan Pérez",
+      "email": "juan.perez@gmail.com",
+      "password": "securepass456",
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "name": "Ana Gómez",
+      "email": "ana.gomez@hotmail.com",
+      "password": "anapassword789",
+      "role": "user"
+    },
+    {
+      "id": "5",
+      "name": "Pedro Sánchez",
+      "email": "pedro.s@outlook.com",
+      "password": "userpass321",
+      "role": "user"
+    },
+    {
+      "id": "c163",
+      "name": "Emmanuel Arango",
+      "email": "emmanuel@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "e68b",
+      "name": "Emmanuel",
+      "email": "hola@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "1c44",
+      "name": "Juana",
+      "email": "juana@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Classic Beef Burger",
+      "category": "BURGERS",
+      "price": 8.99,
+      "description": "Premium beef patty with cheddar cheese, lettuce,...",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+      "alt": "Classic Beef Burger"
+    },
+    {
+      "id": "2",
+      "name": "Double Bacon Melt",
+      "category": "BURGERS",
+      "price": 12.5,
+      "description": "Two patties, crispy bacon, melted swiss cheese, and...",
+      "image": "https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=400",
+      "alt": "Double Bacon Melt"
+    },
+    {
+      "id": "3",
+      "name": "Golden Fries",
+      "category": "SIDES",
+      "price": 3.99,
+      "description": "Freshly cut potatoes fried to perfection with sea salt.",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400",
+      "alt": "Golden Fries"
+    },
+    {
+      "id": "4",
+      "name": "Cola Zero",
+      "category": "DRINKS",
+      "price": 2.5,
+      "description": "Chilled zero sugar cola with ice and a slice of lemon.",
+      "image": "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=400",
+      "alt": "Cola Zero"
+    },
+    {
+      "id": "5",
+      "name": "Donut Box",
+      "category": "DESSERTS",
+      "price": 6,
+      "description": "Assorted glazed and frosted donuts.",
+      "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=400",
+      "alt": "Donut Box"
+    },
+    {
+      "id": "6",
+      "name": "Pepperoni Slice",
+      "category": "PIZZA",
+      "price": 4.5,
+      "description": "Large NY style slice with double pepperoni.",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+      "alt": "Pepperoni Slice"
+    }
+  ],
+  "orders": [
+    {
+      "id": "37e5",
+      "items": [
+        {
+          "productId": "1",
+          "name": "Classic Beef Burger",
+          "price": 8.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Double Bacon Melt",
+          "price": 12.5,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Golden Fries",
+          "price": 3.99,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 33.46,
+      "tax": 2.68,
+      "total": 36.14,
+      "createdAt": "2026-02-01T20:47:03.608Z"
+    },
+    {
+      "id": "71f9",
+      "items": [
+        {
+          "productId": "2",
+          "name": "Double Bacon Melt",
+          "price": 12.5,
+          "quantity": 5
+        }
+      ],
+      "subtotal": 62.5,
+      "tax": 5,
+      "total": 67.5,
+      "createdAt": "2026-02-01T20:49:01.808Z"
+    },
+    {
+      "items": [
+        {
+          "productId": "3",
+          "name": "Golden Fries",
+          "price": 3.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Double Bacon Melt",
+          "price": 12.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 16.49,
+      "tax": 1.32,
+      "total": 17.81,
+      "createdAt": "2026-02-02T02:42:48.021Z",
+      "id": "6X6sPo_"
+    },
+    {
+      "items": [],
+      "subtotal": 0,
+      "tax": 0,
+      "total": 0,
+      "createdAt": "2026-02-02T02:42:50.022Z",
+      "id": "0RKn4wb"
+    },
+    {
+      "items": [
+        {
+          "productId": "3",
+          "name": "Golden Fries",
+          "price": 3.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Double Bacon Melt",
+          "price": 12.5,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 16.49,
+      "tax": 1.32,
+      "total": 17.81,
+      "createdAt": "2026-02-02T02:50:51.679Z",
+      "id": "elVRjDd"
+    },
+    {
+      "items": [],
+      "subtotal": 0,
+      "tax": 0,
+      "total": 0,
+      "createdAt": "2026-02-02T02:50:53.231Z",
+      "id": "GsbTdGE"
+    },
+    {
+      "items": [
+        {
+          "productId": "1",
+          "name": "Classic Beef Burger",
+          "price": 8.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Double Bacon Melt",
+          "price": 12.5,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Golden Fries",
+          "price": 3.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 25.48,
+      "tax": 2.04,
+      "total": 27.52,
+      "createdAt": "2026-02-02T02:58:27.800Z",
+      "id": "mU2Air-"
+    },
+    {
+      "items": [
+        {
+          "productId": "1",
+          "name": "Classic Beef Burger",
+          "price": 8.99,
+          "quantity": 1
+        },
+        {
+          "productId": "2",
+          "name": "Double Bacon Melt",
+          "price": 12.5,
+          "quantity": 1
+        },
+        {
+          "productId": "3",
+          "name": "Golden Fries",
+          "price": 3.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 25.48,
+      "tax": 2.04,
+      "total": 27.52,
+      "createdAt": "2026-02-02T02:59:32.252Z",
+      "id": "OUYu6CV"
+    },
+    {
+      "items": [
+        {
+          "productId": "2",
+          "name": "Double Bacon Melt",
+          "price": 12.5,
+          "quantity": 1
+        },
+        {
+          "productId": "1",
+          "name": "Classic Beef Burger",
+          "price": 8.99,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 21.49,
+      "tax": 1.72,
+      "total": 23.21,
+      "createdAt": "2026-02-02T03:01:17.988Z",
+      "id": "CY-vNhu"
+    },
+    {
+      "items": [],
+      "subtotal": 0,
+      "tax": 0,
+      "total": 0,
+      "createdAt": "2026-02-02T03:01:19.906Z",
+      "id": "6ANRjNo"
+    },
+    {
+      "items": [],
+      "subtotal": 0,
+      "tax": 0,
+      "total": 0,
+      "createdAt": "2026-02-02T03:01:21.234Z",
+      "id": "kDFk7EL"
+    }
+  ]
+}

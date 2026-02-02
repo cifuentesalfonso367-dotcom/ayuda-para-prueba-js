@@ -1,0 +1,26 @@
+{
+  "name": "drall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "json-server": "json-server --watch src/state/db.json --port 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuelArangoV/drall-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmanuelArangoV/drall-js/issues"
+  },
+  "homepage": "https://github.com/EmmanuelArangoV/drall-js#readme",
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "vite": "^7.3.1"
+  }
+}
